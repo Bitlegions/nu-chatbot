@@ -1,0 +1,614 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, and Paypal",
+          "We accept most major credit cards and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "product_info",
+        "patterns": [
+          "Tell me about your tea products",
+          "What types of tea do you offer?",
+          "Give me details about your coffee offerings"
+        ],
+        "responses": [
+          "We offer a wide range of tea products, including black, green, herbal, and specialty teas. Each tea is carefully selected for its unique flavor and aroma.",
+          "Our coffee selection includes various blends, from medium roast to dark roast, as well as single-origin options. We have something for every coffee enthusiast."
+        ]
+      },
+      {
+        "tag": "best_sellers",
+        "patterns": [
+          "What are your best-selling teas?",
+          "Tell me your popular coffee choices"
+        ],
+        "responses": [
+          "Our best-selling teas include our classic black tea and soothing chamomile herbal tea. Customers also love our signature coffee blend for its rich taste.",
+          "Customers often choose our house blend coffee and the aromatic French roast. They're our top picks!"
+        ]
+      },
+      {
+        "tag": "discounts",
+        "patterns": [
+          "Do you offer any discounts?",
+          "Are there any ongoing promotions?"
+        ],
+        "responses": [
+          "Yes, we have special discounts on selected tea and coffee products. You can check our website for the latest promotions and offers.",
+          "Absolutely! We frequently run promotions on our premium blends. Don't miss out on our current discounts."
+        ]
+      },
+      {
+        "tag": "customer_support",
+        "patterns": [
+          "How can I contact customer support?",
+          "I need assistance with my order"
+        ],
+        "responses": [
+          "Our customer support team is here to assist you. You can reach out to us through our website's live chat, email, or phone. We're ready to help!",
+          "If you have any questions or need assistance with your order, please don't hesitate to contact our dedicated customer support team."
+        ]
+      },
+      {
+        "tag": "reviews",
+        "patterns": [
+          "Can you share customer reviews?",
+          "What do customers say about your products?"
+        ],
+        "responses": [
+          "Our customers have shared fantastic reviews about our tea and coffee. You can find authentic reviews on our website to learn about their experiences.",
+          "We're proud to have received positive feedback from our satisfied customers. Check out the reviews section on our website for firsthand testimonials."
+        ]
+      },
+      {
+        "tag": "recommendation",
+        "patterns": [
+          "What tea would you recommend?",
+          "Suggest a coffee blend for me"
+        ],
+        "responses": [
+          "For a soothing experience, we recommend trying our Chamomile Herbal Tea. If you prefer coffee, our House Blend is a great choice for its balanced flavor.",
+          "If you're new to coffee, you might enjoy our Medium Roast Blend. For a bolder taste, go for our French Roast. Enjoy your cup of goodness!"
+        ]
+      },
+      {
+        "tag": "brewing_tips",
+        "patterns": [
+          "How should I brew the perfect cup of tea?",
+          "Give me some coffee brewing tips"
+        ],
+        "responses": [
+          "To brew the perfect cup of tea, use freshly boiled water and steep the tea bag or leaves for the recommended time. Follow our brewing guide on the product label for best results.",
+          "For a delightful cup of coffee, use freshly ground beans, maintain the right water temperature, and consider your preferred brewing method, such as French press or drip. Check our website for detailed brewing tips."
+        ]
+      },
+      {
+        "tag": "organic_products",
+        "patterns": [
+          "Do you offer organic tea or coffee?",
+          "Tell me about your organic options"
+        ],
+        "responses": [
+          "Yes, we have a selection of organic teas and coffees. Our organic products are sourced sustainably and meet the highest quality standards.",
+          "Explore our range of organic options, including organic green tea and single-origin organic coffee beans. We're committed to offering you the finest organic choices."
+        ]
+      },
+      {
+        "tag": "flavored_teas",
+        "patterns": [
+          "Do you have any flavored teas?",
+          "What flavored teas do you offer?"
+        ],
+        "responses": [
+          "Yes, we offer a variety of flavored teas such as vanilla chai, peach green tea, and raspberry hibiscus. Each blend is carefully crafted to deliver a delightful taste experience.",
+          "Indulge in our selection of flavored teas, featuring enticing combinations like caramel rooibos, lemon ginger, and coconut oolong. Treat yourself to a burst of flavor!"
+        ]
+      },
+      {
+        "tag": "single_origin_coffee",
+        "patterns": [
+          "Do you have single-origin coffee?",
+          "Tell me about your single-origin coffee"
+        ],
+        "responses": [
+          "Indeed, we offer single-origin coffee sourced from renowned coffee-growing regions around the world. Experience the distinct flavors of Ethiopia, Colombia, and Guatemala in every cup.",
+          "Explore the unique characteristics of our single-origin coffees, from the fruity notes of Ethiopian Yirgacheffe to the chocolatey richness of Colombian Supremo. Elevate your coffee experience today!"
+        ]
+      },
+      {
+        "tag": "gift_options",
+        "patterns": [
+          "Do you offer gift options?",
+          "Can I buy gift sets?"
+        ],
+        "responses": [
+          "Absolutely! We have a range of gift options including tea samplers, coffee gift sets, and customizable gift baskets. Perfect for any occasion!",
+          "Discover our curated gift collections, featuring exquisite teas and coffees packaged elegantly for gifting. Surprise your loved ones with the gift of exceptional flavor."
+        ]
+      },
+    {
+    "tag": "electronics",
+    "patterns": [
+      "What electronics do you offer?",
+      "Tell me about your electronic products",
+      "Electronics category"
+    ],
+    "responses": [
+      "We offer a wide range of electronics including smartphones, laptops, tablets, cameras, headphones, speakers, smartwatches, gaming consoles, and more."
+    ]
+  },
+  {
+    "tag": "smartphones",
+    "patterns": [
+      "Tell me about your smartphones",
+      "What smartphones do you have?",
+      "Smartphone options"
+    ],
+    "responses": [
+      "Our smartphone collection includes the latest models from top brands like Apple, Samsung, Google, and more. Explore a variety of features and price ranges to find the perfect device for you."
+    ]
+  },
+  {
+    "tag": "laptops",
+    "patterns": [
+      "Can you tell me about your laptops?",
+      "What laptops do you offer?",
+      "Laptop options"
+    ],
+    "responses": [
+      "Discover our selection of laptops ranging from ultraportable notebooks to powerful gaming machines. We carry brands like Apple, Dell, HP, Lenovo, and ASUS to suit your needs and budget."
+    ]
+  },
+  {
+    "tag": "tablets",
+    "patterns": [
+      "What tablets do you have?",
+      "Tell me about your tablets",
+      "Tablet options"
+    ],
+    "responses": [
+      "Explore our range of tablets for work, entertainment, and everything in between. Choose from popular brands such as Apple iPad, Samsung Galaxy Tab, Amazon Fire, and more."
+    ]
+  },
+  {
+    "tag": "cameras",
+    "patterns": [
+      "Can you tell me about your cameras?",
+      "What cameras do you offer?",
+      "Camera options"
+    ],
+    "responses": [
+      "Capture life's moments with our selection of digital cameras and accessories. From compact point-and-shoots to professional DSLRs and mirrorless cameras, we have options from Nikon, Canon, Sony, and more."
+    ]
+  },
+  {
+    "tag": "headphones",
+    "patterns": [
+      "Tell me about your headphones",
+      "What headphones do you offer?",
+      "Headphone options"
+    ],
+    "responses": [
+      "Immerse yourself in sound with our range of headphones, including over-ear, on-ear, and in-ear styles. Choose from top brands like Bose, Sony, Sennheiser, and Beats to elevate your listening experience."
+    ]
+  },
+  {
+    "tag": "speakers",
+    "patterns": [
+      "What speakers do you have?",
+      "Tell me about your speakers",
+      "Speaker options"
+    ],
+    "responses": [
+      "Turn up the volume with our selection of speakers for home entertainment or on-the-go use. Explore wireless Bluetooth speakers, smart speakers, soundbars, and more from trusted brands like Sonos, JBL, and Bose."
+    ]
+  },
+  {
+    "tag": "smartwatches",
+    "patterns": [
+      "Can you tell me about your smartwatches?",
+      "What smartwatches do you offer?",
+      "Smartwatch options"
+    ],
+    "responses": [
+      "Stay connected and active with our range of smartwatches. Discover features like fitness tracking, notifications, and mobile payments from brands such as Apple Watch, Samsung Galaxy Watch, Fitbit, and Garmin."
+    ]
+  },
+  {
+    "tag": "gaming_consoles",
+    "patterns": [
+      "Tell me about your gaming consoles",
+      "What gaming consoles do you offer?",
+      "Gaming console options"
+    ],
+    "responses": [
+      "Experience the latest in gaming with our selection of gaming consoles from Sony PlayStation, Microsoft Xbox, and Nintendo. Choose from consoles, accessories, and games to level up your gaming setup."
+    ]
+  },
+  {
+    "tag": "accessories",
+    "patterns": [
+      "What accessories do you offer?",
+      "Tell me about your electronic accessories",
+      "Accessory options"
+    ],
+    "responses": [
+      "Enhance your electronic devices with our range of accessories including cases, chargers, cables, adapters, and more. Find the perfect add-ons to complement your gadgets and keep them protected."
+    ]
+  },
+  {
+    "tag": "wearable_tech",
+    "patterns": [
+      "What wearable tech do you have?",
+      "Tell me about your wearable technology",
+      "Wearable tech options"
+    ],
+    "responses": [
+      "Explore our selection of wearable technology devices that seamlessly integrate into your lifestyle. From fitness trackers and smartwatches to augmented reality glasses and virtual reality headsets, we offer cutting-edge wearable tech from leading brands like Apple, Samsung, Fitbit, Oculus, and Google, helping you stay connected, active, and entertained wherever you go."
+    ]
+  },
+  {
+    "tag": "drones",
+    "patterns": [
+      "Can you tell me about your drones?",
+      "What drones do you offer?",
+      "Drone options"
+    ],
+    "responses": [
+      "Take to the skies and capture breathtaking aerial footage with our range of drones. From beginner-friendly quadcopters to professional-grade aerial platforms, we carry drones equipped with advanced features like GPS navigation, obstacle avoidance, and 4K cameras from brands such as DJI, Parrot, Autel Robotics, and Holy Stone, ensuring you can unleash your creativity and explore new perspectives from above."
+    ]
+  },
+  {
+    "tag": "virtual_reality",
+    "patterns": [
+      "Tell me about your virtual reality produ cts",
+      "What virtual reality devices do you offer?",
+      "Virtual reality options"
+    ],
+    "responses": [
+      "Immerse yourself in captivating virtual worlds with our range of virtual reality devices. From standalone VR headsets to PC-compatible systems, we offer VR experiences for gaming, entertainment, education, and more from brands like Oculus, HTC Vive, Sony PlayStation VR, and Valve Index, delivering unparalleled realism and immersion for your enjoyment."
+    ]
+  }  
+  ,
+  {
+    "tag": "clothing",
+    "patterns": [
+      "What clothing items do you offer?",
+      "Tell me about your clothing collection",
+      "Clothing category"
+    ],
+    "responses": [
+      "Welcome to our clothing section! We offer a diverse range of clothing items to suit every style, occasion, and preference."
+    ]
+  },
+  {
+    "tag": "mens_clothing",
+    "patterns": [
+      "Tell me about your men's clothing",
+      "What men's clothing do you have?",
+      "Men's clothing options"
+    ],
+    "responses": [
+      "Discover our extensive collection of men's clothing designed to elevate your wardrobe. From casual essentials like t-shirts, jeans, and hoodies to formal attire including suits, dress shirts, and trousers, we offer stylish options for every occasion and season."
+    ]
+  },
+  {
+    "tag": "womens_clothing",
+    "patterns": [
+      "Can you tell me about your women's clothing?",
+      "What women's clothing do you offer?",
+      "Women's clothing options"
+    ],
+    "responses": [
+      "Explore our range of women's clothing featuring the latest trends and timeless classics. From chic dresses, tops, and skirts to comfortable loungewear and activewear, we have everything you need to express your personal style and feel confident every day."
+    ]
+  },
+  {
+    "tag": "kids_clothing",
+    "patterns": [
+      "Tell me about your kids' clothing",
+      "What kids' clothing do you have?",
+      "Kids' clothing options"
+    ],
+    "responses": [
+      "Dress your little ones in style with our adorable collection of kids' clothing. From cute onesies and playful t-shirts to cozy sweaters and durable jeans, we offer fashionable and comfortable options for children of all ages, ensuring they look and feel their best."
+    ]
+  },
+  {
+    "tag": "shoes",
+    "patterns": [
+      "What shoes do you offer?",
+      "Tell me about your footwear collection",
+      "Shoe options"
+    ],
+    "responses": [
+      "Step out in style with our versatile range of shoes for men, women, and kids. From trendy sneakers and sandals to classic loafers and boots, we offer footwear options that combine comfort, durability, and fashion-forward design to complete any outfit."
+    ]
+  },
+  {
+    "tag": "accessories",
+    "patterns": [
+      "What accessories do you offer?",
+      "Tell me about your clothing accessories",
+      "Accessory options"
+    ],
+    "responses": [
+      "Complete your look with our stylish range of clothing accessories. From statement jewelry and chic scarves to functional belts and hats, we offer the perfect finishing touches to enhance your outfit and express your unique personality."
+    ]
+  },
+  {
+    "tag": "activewear",
+    "patterns": [
+      "Can you tell me about your activewear?",
+      "What activewear options do you have?",
+      "Activewear collection"
+    ],
+    "responses": [
+      "Stay active and comfortable with our high-performance activewear collection. Whether you're hitting the gym, going for a run, or practicing yoga, we offer moisture-wicking fabrics, supportive designs, and stylish silhouettes to keep you motivated and looking your best."
+    ]
+  },
+  {
+    "tag": "outerwear",
+    "patterns": [
+      "Tell me about your outerwear",
+      "What outerwear options do you offer?",
+      "Outerwear collection"
+    ],
+    "responses": [
+      "Stay warm and stylish in any weather with our outerwear collection. From cozy jackets and parkas to sleek coats and vests, we offer versatile outerwear options for every season and activity, ensuring you stay protected and fashionable wherever you go."
+    ]
+  },
+  {
+    "tag": "formalwear",
+    "patterns": [
+      "What formalwear do you offer?",
+      "Tell me about your formal attire",
+      "Formalwear options"
+    ],
+    "responses": [
+      "Make a lasting impression with our elegant formalwear collection. From tailored suits and crisp dress shirts to sophisticated evening gowns and cocktail dresses, we offer timeless pieces that exude confidence and refinement for any special occasion."
+    ]
+  },
+  {
+    "tag": "lingerie",
+    "patterns": [
+      "Can you tell me about your lingerie?",
+      "What lingerie options do you have?",
+      "Lingerie collection"
+    ],
+    "responses": [
+      "Discover our lingerie collection designed to make you feel beautiful and confident. From lace bras and panties to comfortable loungewear and shapewear, we offer intimate apparel that fits and flatters every body shape and size."
+    ]
+  },
+  {
+    "tag": "swimwear",
+    "patterns": [
+      "Tell me about your swimwear",
+      "What swimwear options do you offer?",
+      "Swimwear collection"
+    ],
+    "responses": [
+      "Make a splash in style with our swimwear collection. From flattering one-piece swimsuits and trendy bikinis to comfortable swim trunks and board shorts, we offer swimwear options for lounging by the pool, hitting the beach, or enjoying water sports, ensuring you look and feel confident all summer long."
+    ]
+  },
+  {
+    "tag": "swimwear",
+    "patterns": [
+      "Tell me about your swimwear",
+      "What swimwear options do you offer?",
+      "Swimwear collection"
+    ],
+    "responses": [
+      "Dive into summer with our swimwear collection. From classic one-piece swimsuits and trendy bikinis to comfortable swim trunks and board shorts, we offer stylish options for lounging by the pool or hitting the beach."
+    ]
+  },
+  {
+    "tag": "ethical_fashion",
+    "patterns": [
+      "What ethical fashion options do you have?",
+      "Tell me about your sustainable clothing",
+      "Ethical fashion collection"
+    ],
+    "responses": [
+      "Shop with a purpose with our ethical fashion collection. From organic cotton basics and fair trade accessories to eco-friendly activewear and vegan leather shoes, we offer sustainable options that prioritize people and the planet."
+    ]
+  },
+  {
+    "tag": "plus_size",
+    "patterns": [
+      "Can you tell me about your plus-size clothing?",
+      "What options do you have for plus-size individuals?",
+      "Plus-size collection"
+    ],
+    "responses": [
+      "Find fashion that fits with our plus-size collection. From curve-flattering dresses and tops to stylish jeans and outerwear, we offer trendy options in extended sizes that celebrate and empower every body."
+    ]
+  }  
+,
+  {
+    "tag": "recommendation",
+    "patterns": [
+      "Can you recommend a product?",
+      "What would you suggest?",
+      "Product recommendations"
+    ],
+    "responses": [
+      "Absolutely! Let me assist you in finding the perfect product based on your preferences."
+    ]
+  },
+  {
+    "tag": "mens_clothing_recommendation",
+    "patterns": [
+      "Can you recommend men's clothing?",
+      "What men's clothing would you suggest?",
+      "Men's clothing recommendations"
+    ],
+    "responses": [
+      "For a stylish and versatile look, I recommend our slim-fit chinos paired with a classic Oxford shirt. Complete the outfit with a tailored blazer for a polished ensemble that transitions effortlessly from day to night."
+    ]
+  },
+  {
+    "tag": "womens_clothing_recommendation",
+    "patterns": [
+      "Can you recommend women's clothing?",
+      "What women's clothing would you suggest?",
+      "Women's clothing recommendations"
+    ],
+    "responses": [
+      "For a chic and comfortable outfit, I suggest our flowy midi dress paired with ankle boots and a denim jacket. Add some statement jewelry for a touch of glamour, and you're ready to conquer the day with confidence!"
+    ]
+  },
+  {
+    "tag": "kids_clothing_recommendation",
+    "patterns": [
+      "Can you recommend kids' clothing?",
+      "What kids' clothing would you suggest?",
+      "Kids' clothing recommendations"
+    ],
+    "responses": [
+      "For a playful and practical look, how about our graphic t-shirt paired with denim overalls? Finish off the outfit with some colorful sneakers for a fun and stylish ensemble that's perfect for playdates and adventures!"
+    ]
+  },
+  {
+    "tag": "shoes_recommendation",
+    "patterns": [
+      "Can you recommend shoes?",
+      "What shoes would you suggest?",
+      "Shoe recommendations"
+    ],
+    "responses": [
+      "For versatile and comfortable footwear, I recommend our classic white sneakers. They pair well with jeans, shorts, or even casual dresses, making them a wardrobe essential for any season."
+    ]
+  },
+  {
+    "tag": "accessories_recommendation",
+    "patterns": [
+      "Can you recommend accessories?",
+      "What accessories would you suggest?",
+      "Accessory recommendations"
+    ],
+    "responses": [
+      "Add a touch of sophistication to your outfit with our leather belt and matching wallet set. The timeless design and quality craftsmanship make them the perfect accessories to elevate your everyday style."
+    ]
+  },
+  {
+    "tag": "activewear_recommendation",
+    "patterns": [
+      "Can you recommend activewear?",
+      "What activewear would you suggest?",
+      "Activewear recommendations"
+    ],
+    "responses": [
+      "Stay motivated during your workouts with our high-performance leggings and moisture-wicking tank top. The breathable fabrics and supportive design ensure maximum comfort and flexibility, allowing you to focus on achieving your fitness goals."
+    ]
+  },
+  {
+    "tag": "outerwear_recommendation",
+    "patterns": [
+      "Can you recommend outerwear?",
+      "What outerwear would you suggest?",
+      "Outerwear recommendations"
+    ],
+    "responses": [
+      "Stay warm and stylish in chilly weather with our quilted puffer jacket. The water-resistant shell and cozy insulation provide protection from the elements, while the sleek design adds a fashionable touch to any winter outfit."
+    ]
+  },
+  {
+    "tag": "formalwear_recommendation",
+    "patterns": [
+      "Can you recommend formalwear?",
+      "What formal attire would you suggest?",
+      "Formalwear recommendations"
+    ],
+    "responses": [
+      "Make a lasting impression at your next event with our classic black tuxedo. Paired with a crisp white shirt, black bow tie, and patent leather shoes, you'll exude elegance and sophistication that's sure to turn heads."
+    ]
+  },
+  {
+    "tag": "lingerie_recommendation",
+    "patterns": [
+      "Can you recommend lingerie?",
+      "What lingerie would you suggest?",
+      "Lingerie recommendations"
+    ],
+    "responses": [
+      "Feel confident and beautiful in our lace-trimmed bralette and matching panties. The soft fabrics and delicate details provide comfort and support, while the feminine design adds a touch of romance to your lingerie collection."
+    ]
+  },
+  {
+    "tag": "swimwear_recommendation",
+    "patterns": [
+      "Can you recommend swimwear?",
+      "What swimwear would you suggest?",
+      "Swimwear recommendations"
+    ],
+    "responses": [
+      "Get ready for beach season with our tropical-print bikini. The flattering silhouette and vibrant colors are perfect for soaking up the sun, while the adjustable straps ensure a comfortable and secure fit all day long."
+    ]
+  }
+ ]
+}

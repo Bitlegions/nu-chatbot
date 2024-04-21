@@ -1,5 +1,11 @@
-# nu-chatbot
+command to run:
 
+pip install numpy, torch, nltk, Flask, flask-cors 
 
-import nltk
+in python interpreter...
+>>> import nltk
 >>> nltk.download()
+
+Now, run:
+python train.py
+python app.py

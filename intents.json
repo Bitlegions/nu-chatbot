@@ -1075,6 +1075,115 @@
       "responses": [
         "OPPO Reno5 Pro 5G Astral Blue with 8GB RAM and 128GB storage is available in Astral Blue color."
       ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "smartphone",
+      "patterns": [
+        "smartphone",
+        "I want to buy a smartphone",
+        "recommand me a smartphone"
+      ],
+      "responses": [
+        "We Have varieties of SmartPhone like Apple,Samsung,vivo,oppo"
+      ]
+    },
+    {
+      "tag": "apple",
+      "patterns": [
+        "apple",
+        "iphone",
+        "I want to buy a apple smartphone",
+        "I want to buy iphone"
+      ],
+      "responses": [
+        "We have top models Iphone-15,Iphone-15-pro-max,Iphone-14-pro"
+      ]
+    },
+    {
+      "tag": "Iphone15",
+      "patterns": [
+        "features",
+        "Iphone features",
+        "Tell me About Iphone15 features"
+      ],
+      "responses": [
+        "iPhone 15 boasts a faster A16 chip, 48MP camera, and USB-C charging, all powered by the new iOS 17."
+      ]
+    },
+    {
+      "tag": "Price",
+      "patterns": ["Price", "Iphone15 price"],
+      "responses": [
+        "The exact pricing depends on your location and storage capacity, but the iPhone 15 starts around ₹79,900 (US$999) for the 128GB base model in India [INR symbol]. Prices go up for higher storage options and the Pro models."
+      ]
+    },
+    {
+      "tag": "Specification",
+      "patterns": [
+        "Tell about cameras",
+        "Give more about cameras of Iphone-15",
+        "Give more about cameras of Iphone 15"
+      ],
+      "responses": [
+        "iPhone 15 upgrades to a 48MP main camera with sensor-shift OIS for sharper photos, especially in low light. The ultra wide camera remains at 12MP."
+      ]
+    },
+    {
+      "tag": "laptop",
+      "patterns": [
+        "laptop",
+        "suggestion for a laptop",
+        "I want to buy a laptop",
+        "recommand me a laptop"
+      ],
+      "responses": ["We Have varieties of laptops of dell,hp,lenovo , asus"]
+    },
+    {
+      "tag": "dell",
+      "patterns": ["dell", "dell laptop", "I want to buy dell laptop"],
+      "responses": [
+        "We have top models Dell-inspiron Series, Give your price Range"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "price range for laptop",
+        "my price range around 50000",
+        "price range"
+      ],
+      "responses": [
+        "We have Best Model for you is Dell Inspiron 5418 is a 14-inch mid-range laptop that offers a good balance of performance, portability, and affordability. It's a versatile option for everyday tasks but not ideal for gaming due to integrated graphics"
+      ]
+    },
+    {
+      "tag": "end",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you for your responce",
+        "Okk, I will think it later",
+        "later",
+        "I will inform after"
+      ],
+      "responses": ["Its' okk thanks for visiting"]
     }
   ]
 }

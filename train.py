@@ -17,7 +17,7 @@ tags = []
 xy = []
 # loop through each sentence in our intents patterns
 for intent in intents['intents']:
-    tag = intent['tag']
+    tag = intent["tag"]
     # add to tag list
     tags.append(tag)
     for pattern in intent['patterns']:

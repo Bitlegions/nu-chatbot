@@ -11,3 +11,6 @@ in python interpreter...
 Now, run:
 * python train.py
 * python app.py
+
+* chat.py for GEMINI AI
+* chat2.py for NeuralNet Model 

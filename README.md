@@ -12,5 +12,6 @@ Now, run:
 * python train.py
 * python app.py
 
+2 versions:
 * chat.py for GEMINI AI
 * chat2.py for NeuralNet Model 
